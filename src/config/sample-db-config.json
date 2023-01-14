@@ -1,0 +1,35 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "database.sqlite",
+    "migrationStorage": "sequelize",
+    "migrationStorageTableName": "migrations",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "seeders",
+    "module": "cjs"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "migrationStorage": "sequelize",
+    "migrationStorageTableName": "migrations",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "seeders",
+    "module": "cjs"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "migrationStorage": "sequelize",
+    "migrationStorageTableName": "migrations",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "seeders",
+    "module": "cjs"
+  }
+}
